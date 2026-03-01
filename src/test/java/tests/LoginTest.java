@@ -12,7 +12,7 @@ public class LoginTest extends baseTest {
 
 	@Test
 	public void validLogin() {
-
+			
 		Log.info("Starting Login Test");
 		extenTests = ExtentReportManager.createTest("Login Test");
 
