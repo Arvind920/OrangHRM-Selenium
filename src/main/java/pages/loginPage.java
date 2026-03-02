@@ -21,7 +21,7 @@ public class loginPage {
 	
 	@FindBy(xpath="//input[@name='password']")	WebElement password;
 	
-	@FindBy(xpath="//button[@type=\\\"submit\\\"]")	WebElement button;
+//	@FindBy(xpath="//button[@type=\\\"submit\\\"]")	WebElement button;
 
 	public loginPage(WebDriver driver) {
 		this.driver = driver;
@@ -41,7 +41,7 @@ public class loginPage {
 	}
 
 	public void clickLogin() {
-//		driver.findElement(LogingButton).click();
-		button.click();
+		driver.findElement(LogingButton).click();
+//		button.click();
 	}
 }

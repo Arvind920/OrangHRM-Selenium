@@ -1,5 +1,8 @@
 <suite name="LoginSuit">
 	<test name="LoginTest">
+		<parameter name="userName" value="Admin" />
+		<parameter name="passWord" value="Adminq123" />
+
 		<classes>
 			<class name="tests.LoginTest" />
 		</classes>
