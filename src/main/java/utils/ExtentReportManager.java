@@ -17,11 +17,12 @@ public class ExtentReportManager {
 
 	private static ExtentReports extent;
 	private static ExtentTest extentTest;
+	public static String reprortPath;
 
 	public static ExtentReports getReportInntance() {
 		if (extent == null) {
 			String timeStamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
-			String reprortPath = "reports/ExtentReprot_" + timeStamp + ".html";
+			 reprortPath = "reports/ExtentReprot_" + timeStamp + ".html";
 
 			ExtentSparkReporter reporter = new ExtentSparkReporter(reprortPath);
 

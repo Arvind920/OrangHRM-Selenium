@@ -76,3 +76,8 @@
 2026-03-03 00:32:08 [main] INFO  Log - Starting Login Test
 2026-03-03 00:32:08 [main] INFO  Log - Entring User Details
 2026-03-03 00:32:09 [main] INFO  Log - Closing the driver
+2026-03-03 01:37:05 [main] INFO  Log - Startign WebDriver........
+2026-03-03 01:37:08 [main] INFO  Log - Navigatting to URL
+2026-03-03 01:37:21 [main] INFO  Log - Starting Login Test
+2026-03-03 01:37:21 [main] INFO  Log - Entring User Details
+2026-03-03 01:37:22 [main] INFO  Log - Closing the driver
