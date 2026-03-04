@@ -44,9 +44,9 @@ public class LoginTest extends baseTest {
 		};
 	}
 
-//	@Test(dataProvider ="LoginData") //to pass the data form excel
-	@Test
-	@Parameters({"userName","passWord"})    //this is help to pass parameter on suit lavel
+	@Test(dataProvider ="LoginData") //to pass the data form excel
+//	@Test
+//	@Parameters({"userName","passWord"})    //this is help to pass parameter on suit lavel
 	public void validLogin(String userName, String passWord) {
 
 		Log.info("Starting Login Test");
