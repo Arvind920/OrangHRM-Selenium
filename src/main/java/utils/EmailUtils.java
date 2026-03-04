@@ -17,8 +17,8 @@ public class EmailUtils {
 	
 	public static void sendTestReport(String reportPath) {
 		
-		final String senderEmail = "testautomat@gmail.com";
-		final String appPass = "yourKey";
+		final String senderEmail = "testautomation395@gmail.com";
+		final String appPass = "nybdsdolxhjzqrfn";
 		final String recipentEmail = "vishwakarmaarvind920@gmail.com";
 
 		// SMTP properties

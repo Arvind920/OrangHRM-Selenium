@@ -15,8 +15,8 @@ import jakarta.mail.internet.MimeMultipart;
 
 public class EmailSender {
 	public static void main(String[] args) {
-		final String senderEmail = "testautom@gmail.com";
-		final String appPass = "yourapp paas key";
+		final String senderEmail = "testautomation395@gmail.com";
+		final String appPass = "nybdsdolxhjzqrfn";
 		final String recipentEmail = "vishwakarmaarvind920@gmail.com";
 
 		// SMTP properties
